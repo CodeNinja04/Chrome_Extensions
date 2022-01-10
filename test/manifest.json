@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Timer",
+  "version": "1.0.0",
+  "description": "hello there",
+  "icons": {
+    "16": "test.png",
+    "48": "test.png",
+    "128": "test.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "test.png",
+      "24": "test.png",
+      "42": "test.png"
+    },
+    "default_title": "Timer extemsion",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
