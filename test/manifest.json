@@ -18,5 +18,9 @@
     "default_title": "Timer extemsion",
     "default_popup": "popup.html"
   },
-  "options_page": "options.html"
+  "options_page": "options.html",
+  "permissions":["storage"],
+  "background":{
+    "service_worker":"background.js"
+  }
 }
